@@ -815,7 +815,7 @@ img.search {
     .content-slider {
         @include position(absolute, unset, 0, 0, unset);
         z-index: 9999;
-        padding: 80px 0px 30px 0px;
+        padding: 80px 1.5rem 30px 1.5rem;
         width: 100%;
         background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 74%, rgba(0, 0, 0, 0.7) 100%);
         background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 74%, rgba(0, 0, 0, 0.7) 100%);
@@ -3902,4 +3902,9 @@ footer {
         font-family: 'GE-SS-Two-Bold';
     }
 }
+}
+@media (max-width: 991px){
+    .desktop-only{
+        display: none !important;
+    }
 }
