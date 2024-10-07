@@ -4147,6 +4147,15 @@ html[dir=rtl] .second-section .counter p {
 html[dir=rtl] .second-section h5 {
   font-family: "GE-SS-Two-Bold";
 }
+html[dir=rtl] .text-pages h3 {
+  font-family: "GE-SS-Two-Bold";
+}
+html[dir=rtl] .text-pages h4 {
+  font-family: "GE-SS-Two-Bold";
+}
+html[dir=rtl] .text-pages p span {
+  font-family: "GE-SS-Two-Bold";
+}
 html[dir=rtl] .details-section .first-details-description p span {
   font-family: "GE-SS-Two-Bold";
 }

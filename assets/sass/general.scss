@@ -3517,7 +3517,19 @@ html[dir=rtl] {
         font-family: 'GE-SS-Two-Bold';
     }
 }
-
+.text-pages{
+    h3{
+        font-family: 'GE-SS-Two-Bold';
+    }
+    h4{
+        font-family: 'GE-SS-Two-Bold';
+    }
+    p{
+        span{
+            font-family: 'GE-SS-Two-Bold';
+        }
+    }
+}
 /*===details-section===*/
 .details-section {
     .first-details-description {
